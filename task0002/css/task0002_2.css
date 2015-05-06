@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-weight: 700;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
+input{
+    padding-left: 10px;
+    font-family: "Microsoft YaHei";
+    vertical-align: middle;
+    height: 20px;
+}
+button{
+    height: 30px;
+    width: 40px;
+}
+span{
+    display: block;
+}
+#div{
+    margin-top: 200px;
+    text-align: center;
+}

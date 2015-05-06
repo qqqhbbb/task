@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ddd;
+}
+#box{
+    height: 462px;
+    width: 500px;
+    margin: 100px auto 0 auto;
+}
+#lul{
+    background: #fff;
+    float: left;
+    width: 150px;
+    height: 460px;
+    border: 1px solid #000;
+}
+#rul{
+    background: #fff;
+    float: right;
+    width: 150px;
+    height: 460px;
+    border: 1px solid #000;
+}
+li{
+    cursor: move;
+    list-style: none;
+    width: 150px;
+    height: 50px;
+    background: red;
+    border-bottom: 1px solid #000;
+}
+.selected{
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+}

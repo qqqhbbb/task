@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-weight: 700;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
+input{
+    vertical-align: middle;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Microsoft YaHei";
+    width: 180px;
+}
+#ul{
+    display: none;
+    list-style: none;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    width: 202px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#ul li{
+    padding: 2px 10px;
+    cursor: pointer;
+}
+#ul .selected{
+    background: #ccc;
+}
